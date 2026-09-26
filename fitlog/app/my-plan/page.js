@@ -49,7 +49,7 @@ export default function MyPlanPage() {
       </p>
 
       {/* Metrics */}
-      <div className="mt-6 grid grid-cols-3 gap-4 rounded-card border border-base-border bg-base-panel p-6">
+      <div className="flex flex-col items-center gap-3 rounded-card border border-base-border border-t-2 border-t-accent bg-base-panel py-16 text-center">
         <div>
           <p className="text-xs text-base-muted">Exercises</p>
           <p className="mt-1 text-2xl font-bold text-accent">{plan.length}</p>
