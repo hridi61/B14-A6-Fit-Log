@@ -8,6 +8,7 @@ export const metadata = {
   title: "FitLog — Workout Library",
   description:
     "FitLog is a dark, no-nonsense gym companion: pick a lift, lock it into today's plan, and watch the week's work add up.",
+  keywords: ["workout", "fitness", "gym", "training log"],
 };
 
 export default function RootLayout({ children }) {
