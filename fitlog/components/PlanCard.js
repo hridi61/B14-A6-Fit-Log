@@ -55,8 +55,8 @@ export default function PlanCard({
             onClick={() => onMarkDone(id)}
             className={`flex items-center gap-1 rounded-full px-4 py-2 text-xs font-semibold transition-colors ${
               done
-                ? "bg-base-panel2 text-base-muted"
-                : "bg-accent text-black"
+                ? "bg-base-panel2 text-base-muted hover:bg-base-panel2/70"
+                : "bg-accent text-black hover:bg-accent-dark"
             }`}
           >
             <FiCheck /> {done ? "Done" : "Mark as Done"}
