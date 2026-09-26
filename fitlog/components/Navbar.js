@@ -35,10 +35,10 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
+                className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
                   isActive
                     ? "bg-accent text-black"
-                    : "text-base-muted hover:text-white"
+                    : "text-base-muted hover:text-white hover:bg-base-panel2"
                 }`}
               >
                 {link.label}
