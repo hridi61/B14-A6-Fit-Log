@@ -28,7 +28,7 @@ export default function WorkoutCard({ workout }) {
   return (
     <Link
       href={`/workouts/${id}`}
-      className="group flex flex-col overflow-hidden rounded-card border border-base-border bg-base-panel transition-colors hover:border-accent/60"
+            className="group flex flex-col overflow-hidden rounded-card border border-base-border bg-base-panel transition-all hover:border-accent/60 hover:shadow-lg hover:shadow-accent/5"
     >
       <div className="aspect-[4/3] w-full overflow-hidden bg-base-panel2">
         <img
