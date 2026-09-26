@@ -49,13 +49,13 @@ export default function Navbar() {
 
         {/* Badges */}
         <div className="flex items-center gap-4 text-sm">
-          <Link href="/my-plan" className="flex items-center gap-2">
+          <Link href="/my-plan" className="flex items-center gap-2" aria-label="View today's plan">
             <span className="text-base-muted">Plan</span>
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-semibold text-black">
               {planCount}
             </span>
           </Link>
-          <Link href="/my-plan" className="flex items-center gap-2">
+          <Link href="/my-plan" className="flex items-center gap-2" aria-label="View saved workouts">
             <span className="text-base-muted">Saved</span>
             <span className="flex h-6 w-6 items-center justify-center rounded-full border border-base-border text-xs font-semibold text-white">
               {savedCount}
