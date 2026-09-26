@@ -52,5 +52,5 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Deployed on Vercel. See the live link in the submission form.
 
-- Live Link:
-- GitHub Repository Link:
+   - Live Link: https://b14-a6-fit-log-delta.vercel.app
+   - GitHub Repository Link: https://github.com/hridi61/B14-A6-Fit-Log
