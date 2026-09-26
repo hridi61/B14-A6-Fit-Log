@@ -34,6 +34,7 @@ export default function WorkoutCard({ workout }) {
         <img
           src={image || "/images/workout-default.png"}
           alt={name}
+          loading="lazy"
           onError={(e) => {
             e.currentTarget.src = "/images/workout-default.png";
           }}
